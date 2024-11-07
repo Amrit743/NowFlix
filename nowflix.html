@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nowflix</title>
+    <link rel="stylesheet" href="nowflix.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <header>
+        <div class="logo">
+            <h1>NowFlix</h1>
+        </div>
+        <div class="search-bar">
+            <input type="text" placeholder="Search for movies...">
+        </div>
+        <div class="profile">
+            <a href="#">Login/Profile</a>
+        </div>
+        <div class="hamburger-menu" onclick="toggleMenu()">
+            ☰
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Trending Movies Carousel -->
+        <section class="carousel">
+            <h2>Trending Movies</h2>
+            <div class="carousel-container">
+                <div class="carousel-item">
+                    <img src="movie1.jpg" alt="Movie 1">
+                </div>
+                <div class="carousel-item">
+                    <img src="movie2.jpg" alt="Movie 2">
+                </div>
+                <div class="carousel-item">
+                    <img src="movie3.jpg" alt="Movie 3">
+                </div>
+                <div class="carousel-item">
+                    <img src="movie4.jpg" alt="Movie 4">
+                </div>
+                <div class="carousel-item">
+                    <img src="movie5.jpg" alt="Movie 5">
+                </div>
+                <div class="carousel-item">
+                    <img src="movie6.jpg" alt="Movie 6">
+                </div>
+            </div>
+            
+        </section>
+
+        <!-- Movie Categories -->
+        <section class="categories">
+            <h2>Movie Categories</h2>
+            <div class="category-card">
+                <img src="movie4.jpg" alt="Action">
+                <div class="category-info">
+                    <h3>Action</h3>
+                    <p>English</p>
+                </div>
+            </div>
+            <div class="category-card">
+                <img src="comedy.jpg" alt="Comedy">
+                <div class="category-info">
+                    <h3>Comedy</h3>
+                    <p>Hindi</p>
+                </div>
+            </div>
+            <div class="category-card">
+                <img src="movie6.jpg" alt="Drama">
+                <div class="category-info">
+                    <h3>Drama</h3>
+                    <p>English</p>
+                </div>
+            
+                
+            </div>
+            
+            <!-- Add more categories as needed -->
+        </section>
+
+        <!-- Footer -->
+        <footer>
+            <div class="footer-links">
+                <a href="#">Help & Info</a>
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms & Conditions</a>
+            </div>
+        </footer>
+    </main>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
